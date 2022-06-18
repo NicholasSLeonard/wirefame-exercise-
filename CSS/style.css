@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+header nav *{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    color:rgb(150,150,150);
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(60, 60, 60);
+    height: 125px;
+}
+
+main > section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+    gap: 35px;
+}
+
+main > section > section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+main > section > section *{
+    margin: 0px;
+    padding: 0px;
+}
+
+main > section > section > p{
+    overflow-y: scroll;    
+}
+
+main > section > section > button {
+    width: 35%;
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+
